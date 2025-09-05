@@ -1,4 +1,4 @@
-# ML Challenge Project
+# ML Project
 
 This project is a full-stack application with a React frontend and a Python backend.
 
