@@ -1,0 +1,93 @@
+{
+  "providers": [
+    {
+      "name": "Grey, Meredith",
+      "departments": [
+        {
+          "name": "Sloan Primary Care",
+          "phone": "(710) 555-2070",
+          "address": "202 Maple St, Winston-Salem, NC 27101",
+          "hours": "M-F 9am-5pm"
+        }
+      ],
+      "certification": "MD",
+      "specialty": "Primary Care"
+    },
+    {
+      "name": "House, Gregory",
+      "departments": [
+        {
+          "name": "PPTH Orthopedics",
+          "phone": "(445) 555-6205",
+          "address": "101 Pine St, Greensboro, NC 27401",
+          "hours": "M-W 9am-5pm"
+        },
+        {
+          "name": "Jefferson Hospital",
+          "phone": "(215) 555-6123",
+          "address": "202 Maple St, Claremont, NC 28610",
+          "hours": "Th-F 9am-5pm"
+        }
+      ],
+      "certification": "MD",
+      "specialty": "Orthopedics"
+    },
+    {
+      "name": "Yang, Cristina",
+      "departments": [
+        {
+          "name": "Seattle Grace Cardiac Surgery",
+          "phone": "(710) 555-3082",
+          "address": "456 Elm St, Charlotte, NC 28202",
+          "hours": "M-F 9am-5pm"
+        }
+      ],
+      "certification": "MD",
+      "specialty": "Surgery"
+    },
+    {
+      "name": "Perry, Chris",
+      "departments": [
+        {
+          "name": "Sacred Heart Surgical Department",
+          "phone": "(339) 555-7480",
+          "address": "123 Main St, Raleigh, NC 27601",
+          "hours": "M-W 9am-5pm"
+        },
+        {
+          "name": "Jefferson Hospital",
+          "phone": "(215) 555-6123",
+          "address": "202 Maple St, Claremont, NC 28610",
+          "hours": "Tu-Th 10am-4pm"
+        }
+      ],
+      "certification": "PhD, MD",
+      "specialty": "Orthopedics"
+    }
+  ],
+  "appointments_info": {
+    "types": {
+      "new": {
+        "duration_minutes": 30,
+        "arrival_minutes_early": 30
+      },
+      "established": {
+        "duration_minutes": 15,
+        "arrival_minutes_early": 10
+      },
+      "established_patient_threshold_years": 5
+    }
+  },
+  "accepted_insurances": [
+    "Medicaid",
+    "United Health Care",
+    "Blue Cross Blue Shield of North Carolina",
+    "Aetna",
+    "Cigna"
+  ],
+  "self_pay_rates": {
+    "Primary Care": 150,
+    "Orthopedics": 300,
+    "Surgery": 1000
+  }
+}
